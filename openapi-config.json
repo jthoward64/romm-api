@@ -5,5 +5,7 @@
   "supportsES6": true,
   "useObjectParameters": true,
   "importFileExtension": ".js",
-  "licenseName": "MIT"
+  "licenseName": "MIT",
+  "platform": "node",
+  "fileContentDataType": "Buffer"
 }

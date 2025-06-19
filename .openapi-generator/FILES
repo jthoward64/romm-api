@@ -5,7 +5,6 @@ ConfigApi.md
 FeedsApi.md
 FirmwareApi.md
 PlatformsApi.md
-README.md
 RawApi.md
 RomsApi.md
 SavesApi.md
@@ -107,7 +106,6 @@ models/WebrcadeFeedSchema.ts
 models/all.ts
 rxjsStub.ts
 servers.ts
-tsconfig.json
 types/ObjectParamAPI.ts
 types/ObservableAPI.ts
 types/PromiseAPI.ts
