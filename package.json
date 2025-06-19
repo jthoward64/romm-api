@@ -1,6 +1,6 @@
 {
   "name": "@tajetaje/romm-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "OpenAPI client for RomM",
   "author": "OpenAPI-Generator Contributors",
   "repository": {
