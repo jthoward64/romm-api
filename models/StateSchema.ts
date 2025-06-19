@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { ScreenshotSchema } from '../models/ScreenshotSchema';
-import { HttpFile } from '../http/http';
+import { ScreenshotSchema } from '../models/ScreenshotSchema.js';
+import { HttpFile } from '../http/http.js';
 
 export class StateSchema {
     'id': number;

@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { EarnedAchievement } from '../models/EarnedAchievement';
-import { HttpFile } from '../http/http';
+import { EarnedAchievement } from '../models/EarnedAchievement.js';
+import { HttpFile } from '../http/http.js';
 
 export class RAUserGameProgression {
     'romRaId': number | null;

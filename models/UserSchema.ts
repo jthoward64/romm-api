@@ -10,9 +10,9 @@
  * Do not edit the class manually.
  */
 
-import { RAProgression } from '../models/RAProgression';
-import { Role } from '../models/Role';
-import { HttpFile } from '../http/http';
+import { RAProgression } from '../models/RAProgression.js';
+import { Role } from '../models/Role.js';
+import { HttpFile } from '../http/http.js';
 
 export class UserSchema {
     'id': number;

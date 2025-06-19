@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { WebrcadeFeedItemSchema } from '../models/WebrcadeFeedItemSchema';
-import { HttpFile } from '../http/http';
+import { WebrcadeFeedItemSchema } from '../models/WebrcadeFeedItemSchema.js';
+import { HttpFile } from '../http/http.js';
 
 export class WebrcadeFeedCategorySchema {
     'title': string;

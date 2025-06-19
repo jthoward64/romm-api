@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { RomUserStatus } from '../models/RomUserStatus';
-import { HttpFile } from '../http/http';
+import { RomUserStatus } from '../models/RomUserStatus.js';
+import { HttpFile } from '../http/http.js';
 
 export class RomUserSchema {
     'id': number;

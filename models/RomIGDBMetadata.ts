@@ -10,10 +10,10 @@
  * Do not edit the class manually.
  */
 
-import { IGDBAgeRating } from '../models/IGDBAgeRating';
-import { IGDBMetadataPlatform } from '../models/IGDBMetadataPlatform';
-import { IGDBRelatedGame } from '../models/IGDBRelatedGame';
-import { HttpFile } from '../http/http';
+import { IGDBAgeRating } from '../models/IGDBAgeRating.js';
+import { IGDBMetadataPlatform } from '../models/IGDBMetadataPlatform.js';
+import { IGDBRelatedGame } from '../models/IGDBRelatedGame.js';
+import { HttpFile } from '../http/http.js';
 
 export class RomIGDBMetadata {
     'totalRating'?: string;

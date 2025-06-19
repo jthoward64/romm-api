@@ -1,0 +1,9 @@
+{
+  "npmName": "@tajetaje/romm-api",
+  "npmVersion": "0.0.0",
+  "snapshot" : false,
+  "supportsES6": true,
+  "useObjectParameters": true,
+  "importFileExtension": ".js",
+  "licenseName": "MIT"
+}

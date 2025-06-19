@@ -1,6 +1,4 @@
 .gitattributes
-.gitignore
-.openapi-generator-ignore
 AuthApi.md
 CollectionsApi.md
 ConfigApi.md
@@ -107,7 +105,6 @@ models/WebrcadeFeedItemPropsSchema.ts
 models/WebrcadeFeedItemSchema.ts
 models/WebrcadeFeedSchema.ts
 models/all.ts
-package.json
 rxjsStub.ts
 servers.ts
 tsconfig.json

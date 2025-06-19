@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { MobyMetadataPlatform } from '../models/MobyMetadataPlatform';
-import { HttpFile } from '../http/http';
+import { MobyMetadataPlatform } from '../models/MobyMetadataPlatform.js';
+import { HttpFile } from '../http/http.js';
 
 export class RomMobyMetadata {
     'mobyScore'?: string;

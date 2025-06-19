@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { RomFileCategory } from '../models/RomFileCategory';
-import { HttpFile } from '../http/http';
+import { RomFileCategory } from '../models/RomFileCategory.js';
+import { HttpFile } from '../http/http.js';
 
 export class RomFileSchema {
     'id': number;

@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { HttpFile } from '../http/http';
+import { HttpFile } from '../http/http.js';
 
 export class EmulationDict {
     'DISABLE_EMULATOR_JS': boolean;

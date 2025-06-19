@@ -10,15 +10,15 @@
  * Do not edit the class manually.
  */
 
-import { EmulationDict } from '../models/EmulationDict';
-import { FilesystemDict } from '../models/FilesystemDict';
-import { FrontendDict } from '../models/FrontendDict';
-import { MetadataSourcesDict } from '../models/MetadataSourcesDict';
-import { OIDCDict } from '../models/OIDCDict';
-import { SchedulerDict } from '../models/SchedulerDict';
-import { SystemDict } from '../models/SystemDict';
-import { WatcherDict } from '../models/WatcherDict';
-import { HttpFile } from '../http/http';
+import { EmulationDict } from '../models/EmulationDict.js';
+import { FilesystemDict } from '../models/FilesystemDict.js';
+import { FrontendDict } from '../models/FrontendDict.js';
+import { MetadataSourcesDict } from '../models/MetadataSourcesDict.js';
+import { OIDCDict } from '../models/OIDCDict.js';
+import { SchedulerDict } from '../models/SchedulerDict.js';
+import { SystemDict } from '../models/SystemDict.js';
+import { WatcherDict } from '../models/WatcherDict.js';
+import { HttpFile } from '../http/http.js';
 
 export class HeartbeatResponse {
     'SYSTEM': SystemDict;

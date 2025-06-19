@@ -1,72 +1,72 @@
-import { ResponseContext, RequestContext, HttpFile, HttpInfo } from '../http/http';
-import { Configuration, ConfigurationOptions, mergeConfiguration } from '../configuration'
-import type { Middleware } from '../middleware';
-import { Observable, of, from } from '../rxjsStub';
-import {mergeMap, map} from  '../rxjsStub';
-import { AddFirmwareResponse } from '../models/AddFirmwareResponse';
-import { BodyCreateUserFromInviteApiUsersRegisterPost } from '../models/BodyCreateUserFromInviteApiUsersRegisterPost';
-import { BodyRequestPasswordResetApiForgotPasswordPost } from '../models/BodyRequestPasswordResetApiForgotPasswordPost';
-import { BodyResetPasswordApiResetPasswordPost } from '../models/BodyResetPasswordApiResetPasswordPost';
-import { CollectionSchema } from '../models/CollectionSchema';
-import { ConfigResponse } from '../models/ConfigResponse';
-import { CustomLimitOffsetPageSimpleRomSchema } from '../models/CustomLimitOffsetPageSimpleRomSchema';
-import { DetailedRomSchema } from '../models/DetailedRomSchema';
-import { EarnedAchievement } from '../models/EarnedAchievement';
-import { EmulationDict } from '../models/EmulationDict';
-import { FilesystemDict } from '../models/FilesystemDict';
-import { FirmwareSchema } from '../models/FirmwareSchema';
-import { FrontendDict } from '../models/FrontendDict';
-import { HTTPValidationError } from '../models/HTTPValidationError';
-import { HeartbeatResponse } from '../models/HeartbeatResponse';
-import { IGDBAgeRating } from '../models/IGDBAgeRating';
-import { IGDBMetadataPlatform } from '../models/IGDBMetadataPlatform';
-import { IGDBRelatedGame } from '../models/IGDBRelatedGame';
-import { InviteLinkSchema } from '../models/InviteLinkSchema';
-import { MessageResponse } from '../models/MessageResponse';
-import { MetadataSourcesDict } from '../models/MetadataSourcesDict';
-import { MobyMetadataPlatform } from '../models/MobyMetadataPlatform';
-import { OIDCDict } from '../models/OIDCDict';
-import { PlatformSchema } from '../models/PlatformSchema';
-import { RAGameRomAchievement } from '../models/RAGameRomAchievement';
-import { RAProgression } from '../models/RAProgression';
-import { RAUserGameProgression } from '../models/RAUserGameProgression';
-import { Role } from '../models/Role';
-import { RomFileCategory } from '../models/RomFileCategory';
-import { RomFileSchema } from '../models/RomFileSchema';
-import { RomIGDBMetadata } from '../models/RomIGDBMetadata';
-import { RomMetadataSchema } from '../models/RomMetadataSchema';
-import { RomMobyMetadata } from '../models/RomMobyMetadata';
-import { RomRAMetadata } from '../models/RomRAMetadata';
-import { RomSSMetadata } from '../models/RomSSMetadata';
-import { RomUserSchema } from '../models/RomUserSchema';
-import { RomUserStatus } from '../models/RomUserStatus';
-import { SaveSchema } from '../models/SaveSchema';
-import { SchedulerDict } from '../models/SchedulerDict';
-import { ScreenshotSchema } from '../models/ScreenshotSchema';
-import { SearchCoverSchema } from '../models/SearchCoverSchema';
-import { SearchRomSchema } from '../models/SearchRomSchema';
-import { SiblingRomSchema } from '../models/SiblingRomSchema';
-import { SimpleRomSchema } from '../models/SimpleRomSchema';
-import { StateSchema } from '../models/StateSchema';
-import { StatsReturn } from '../models/StatsReturn';
-import { SystemDict } from '../models/SystemDict';
-import { TaskDict } from '../models/TaskDict';
-import { TinfoilFeedFileSchema } from '../models/TinfoilFeedFileSchema';
-import { TinfoilFeedSchema } from '../models/TinfoilFeedSchema';
-import { TinfoilFeedTitleDBSchema } from '../models/TinfoilFeedTitleDBSchema';
-import { TokenResponse } from '../models/TokenResponse';
-import { UserNotesSchema } from '../models/UserNotesSchema';
-import { UserSchema } from '../models/UserSchema';
-import { ValidationError } from '../models/ValidationError';
-import { ValidationErrorLocInner } from '../models/ValidationErrorLocInner';
-import { VirtualCollectionSchema } from '../models/VirtualCollectionSchema';
-import { WatcherDict } from '../models/WatcherDict';
-import { WebrcadeFeedCategorySchema } from '../models/WebrcadeFeedCategorySchema';
-import { WebrcadeFeedItemPropsSchema } from '../models/WebrcadeFeedItemPropsSchema';
-import { WebrcadeFeedItemSchema } from '../models/WebrcadeFeedItemSchema';
-import { WebrcadeFeedSchema } from '../models/WebrcadeFeedSchema';
+import { ResponseContext, RequestContext, HttpFile, HttpInfo } from '../http/http.js';
+import { Configuration, ConfigurationOptions, mergeConfiguration } from '../configuration.js'
+import type { Middleware } from '../middleware.js';
+import { Observable, of, from } from '../rxjsStub.js';
+import {mergeMap, map} from  '../rxjsStub.js';
+import { AddFirmwareResponse } from '../models/AddFirmwareResponse.js';
+import { BodyCreateUserFromInviteApiUsersRegisterPost } from '../models/BodyCreateUserFromInviteApiUsersRegisterPost.js';
+import { BodyRequestPasswordResetApiForgotPasswordPost } from '../models/BodyRequestPasswordResetApiForgotPasswordPost.js';
+import { BodyResetPasswordApiResetPasswordPost } from '../models/BodyResetPasswordApiResetPasswordPost.js';
+import { CollectionSchema } from '../models/CollectionSchema.js';
+import { ConfigResponse } from '../models/ConfigResponse.js';
+import { CustomLimitOffsetPageSimpleRomSchema } from '../models/CustomLimitOffsetPageSimpleRomSchema.js';
+import { DetailedRomSchema } from '../models/DetailedRomSchema.js';
+import { EarnedAchievement } from '../models/EarnedAchievement.js';
+import { EmulationDict } from '../models/EmulationDict.js';
+import { FilesystemDict } from '../models/FilesystemDict.js';
+import { FirmwareSchema } from '../models/FirmwareSchema.js';
+import { FrontendDict } from '../models/FrontendDict.js';
+import { HTTPValidationError } from '../models/HTTPValidationError.js';
+import { HeartbeatResponse } from '../models/HeartbeatResponse.js';
+import { IGDBAgeRating } from '../models/IGDBAgeRating.js';
+import { IGDBMetadataPlatform } from '../models/IGDBMetadataPlatform.js';
+import { IGDBRelatedGame } from '../models/IGDBRelatedGame.js';
+import { InviteLinkSchema } from '../models/InviteLinkSchema.js';
+import { MessageResponse } from '../models/MessageResponse.js';
+import { MetadataSourcesDict } from '../models/MetadataSourcesDict.js';
+import { MobyMetadataPlatform } from '../models/MobyMetadataPlatform.js';
+import { OIDCDict } from '../models/OIDCDict.js';
+import { PlatformSchema } from '../models/PlatformSchema.js';
+import { RAGameRomAchievement } from '../models/RAGameRomAchievement.js';
+import { RAProgression } from '../models/RAProgression.js';
+import { RAUserGameProgression } from '../models/RAUserGameProgression.js';
+import { Role } from '../models/Role.js';
+import { RomFileCategory } from '../models/RomFileCategory.js';
+import { RomFileSchema } from '../models/RomFileSchema.js';
+import { RomIGDBMetadata } from '../models/RomIGDBMetadata.js';
+import { RomMetadataSchema } from '../models/RomMetadataSchema.js';
+import { RomMobyMetadata } from '../models/RomMobyMetadata.js';
+import { RomRAMetadata } from '../models/RomRAMetadata.js';
+import { RomSSMetadata } from '../models/RomSSMetadata.js';
+import { RomUserSchema } from '../models/RomUserSchema.js';
+import { RomUserStatus } from '../models/RomUserStatus.js';
+import { SaveSchema } from '../models/SaveSchema.js';
+import { SchedulerDict } from '../models/SchedulerDict.js';
+import { ScreenshotSchema } from '../models/ScreenshotSchema.js';
+import { SearchCoverSchema } from '../models/SearchCoverSchema.js';
+import { SearchRomSchema } from '../models/SearchRomSchema.js';
+import { SiblingRomSchema } from '../models/SiblingRomSchema.js';
+import { SimpleRomSchema } from '../models/SimpleRomSchema.js';
+import { StateSchema } from '../models/StateSchema.js';
+import { StatsReturn } from '../models/StatsReturn.js';
+import { SystemDict } from '../models/SystemDict.js';
+import { TaskDict } from '../models/TaskDict.js';
+import { TinfoilFeedFileSchema } from '../models/TinfoilFeedFileSchema.js';
+import { TinfoilFeedSchema } from '../models/TinfoilFeedSchema.js';
+import { TinfoilFeedTitleDBSchema } from '../models/TinfoilFeedTitleDBSchema.js';
+import { TokenResponse } from '../models/TokenResponse.js';
+import { UserNotesSchema } from '../models/UserNotesSchema.js';
+import { UserSchema } from '../models/UserSchema.js';
+import { ValidationError } from '../models/ValidationError.js';
+import { ValidationErrorLocInner } from '../models/ValidationErrorLocInner.js';
+import { VirtualCollectionSchema } from '../models/VirtualCollectionSchema.js';
+import { WatcherDict } from '../models/WatcherDict.js';
+import { WebrcadeFeedCategorySchema } from '../models/WebrcadeFeedCategorySchema.js';
+import { WebrcadeFeedItemPropsSchema } from '../models/WebrcadeFeedItemPropsSchema.js';
+import { WebrcadeFeedItemSchema } from '../models/WebrcadeFeedItemSchema.js';
+import { WebrcadeFeedSchema } from '../models/WebrcadeFeedSchema.js';
 
-import { AuthApiRequestFactory, AuthApiResponseProcessor} from "../apis/AuthApi";
+import { AuthApiRequestFactory, AuthApiResponseProcessor} from "../apis/AuthApi.js";
 export class ObservableAuthApi {
     private requestFactory: AuthApiRequestFactory;
     private responseProcessor: AuthApiResponseProcessor;
@@ -326,7 +326,7 @@ export class ObservableAuthApi {
 
 }
 
-import { CollectionsApiRequestFactory, CollectionsApiResponseProcessor} from "../apis/CollectionsApi";
+import { CollectionsApiRequestFactory, CollectionsApiResponseProcessor} from "../apis/CollectionsApi.js";
 export class ObservableCollectionsApi {
     private requestFactory: CollectionsApiRequestFactory;
     private responseProcessor: CollectionsApiResponseProcessor;
@@ -588,7 +588,7 @@ export class ObservableCollectionsApi {
 
 }
 
-import { ConfigApiRequestFactory, ConfigApiResponseProcessor} from "../apis/ConfigApi";
+import { ConfigApiRequestFactory, ConfigApiResponseProcessor} from "../apis/ConfigApi.js";
 export class ObservableConfigApi {
     private requestFactory: ConfigApiRequestFactory;
     private responseProcessor: ConfigApiResponseProcessor;
@@ -838,7 +838,7 @@ export class ObservableConfigApi {
 
 }
 
-import { FeedsApiRequestFactory, FeedsApiResponseProcessor} from "../apis/FeedsApi";
+import { FeedsApiRequestFactory, FeedsApiResponseProcessor} from "../apis/FeedsApi.js";
 export class ObservableFeedsApi {
     private requestFactory: FeedsApiRequestFactory;
     private responseProcessor: FeedsApiResponseProcessor;
@@ -922,7 +922,7 @@ export class ObservableFeedsApi {
 
 }
 
-import { FirmwareApiRequestFactory, FirmwareApiResponseProcessor} from "../apis/FirmwareApi";
+import { FirmwareApiRequestFactory, FirmwareApiResponseProcessor} from "../apis/FirmwareApi.js";
 export class ObservableFirmwareApi {
     private requestFactory: FirmwareApiRequestFactory;
     private responseProcessor: FirmwareApiResponseProcessor;
@@ -1148,7 +1148,7 @@ export class ObservableFirmwareApi {
 
 }
 
-import { PlatformsApiRequestFactory, PlatformsApiResponseProcessor} from "../apis/PlatformsApi";
+import { PlatformsApiRequestFactory, PlatformsApiResponseProcessor} from "../apis/PlatformsApi.js";
 export class ObservablePlatformsApi {
     private requestFactory: PlatformsApiRequestFactory;
     private responseProcessor: PlatformsApiResponseProcessor;
@@ -1364,7 +1364,7 @@ export class ObservablePlatformsApi {
 
 }
 
-import { RawApiRequestFactory, RawApiResponseProcessor} from "../apis/RawApi";
+import { RawApiRequestFactory, RawApiResponseProcessor} from "../apis/RawApi.js";
 export class ObservableRawApi {
     private requestFactory: RawApiRequestFactory;
     private responseProcessor: RawApiResponseProcessor;
@@ -1448,7 +1448,7 @@ export class ObservableRawApi {
 
 }
 
-import { RomsApiRequestFactory, RomsApiResponseProcessor} from "../apis/RomsApi";
+import { RomsApiRequestFactory, RomsApiResponseProcessor} from "../apis/RomsApi.js";
 export class ObservableRomsApi {
     private requestFactory: RomsApiRequestFactory;
     private responseProcessor: RomsApiResponseProcessor;
@@ -1896,7 +1896,7 @@ export class ObservableRomsApi {
 
 }
 
-import { SavesApiRequestFactory, SavesApiResponseProcessor} from "../apis/SavesApi";
+import { SavesApiRequestFactory, SavesApiResponseProcessor} from "../apis/SavesApi.js";
 export class ObservableSavesApi {
     private requestFactory: SavesApiRequestFactory;
     private responseProcessor: SavesApiResponseProcessor;
@@ -2076,7 +2076,7 @@ export class ObservableSavesApi {
 
 }
 
-import { ScreenshotsApiRequestFactory, ScreenshotsApiResponseProcessor} from "../apis/ScreenshotsApi";
+import { ScreenshotsApiRequestFactory, ScreenshotsApiResponseProcessor} from "../apis/ScreenshotsApi.js";
 export class ObservableScreenshotsApi {
     private requestFactory: ScreenshotsApiRequestFactory;
     private responseProcessor: ScreenshotsApiResponseProcessor;
@@ -2126,7 +2126,7 @@ export class ObservableScreenshotsApi {
 
 }
 
-import { SearchApiRequestFactory, SearchApiResponseProcessor} from "../apis/SearchApi";
+import { SearchApiRequestFactory, SearchApiResponseProcessor} from "../apis/SearchApi.js";
 export class ObservableSearchApi {
     private requestFactory: SearchApiRequestFactory;
     private responseProcessor: SearchApiResponseProcessor;
@@ -2214,7 +2214,7 @@ export class ObservableSearchApi {
 
 }
 
-import { StatesApiRequestFactory, StatesApiResponseProcessor} from "../apis/StatesApi";
+import { StatesApiRequestFactory, StatesApiResponseProcessor} from "../apis/StatesApi.js";
 export class ObservableStatesApi {
     private requestFactory: StatesApiRequestFactory;
     private responseProcessor: StatesApiResponseProcessor;
@@ -2394,7 +2394,7 @@ export class ObservableStatesApi {
 
 }
 
-import { StatsApiRequestFactory, StatsApiResponseProcessor} from "../apis/StatsApi";
+import { StatsApiRequestFactory, StatsApiResponseProcessor} from "../apis/StatsApi.js";
 export class ObservableStatsApi {
     private requestFactory: StatsApiRequestFactory;
     private responseProcessor: StatsApiResponseProcessor;
@@ -2444,7 +2444,7 @@ export class ObservableStatsApi {
 
 }
 
-import { SystemApiRequestFactory, SystemApiResponseProcessor} from "../apis/SystemApi";
+import { SystemApiRequestFactory, SystemApiResponseProcessor} from "../apis/SystemApi.js";
 export class ObservableSystemApi {
     private requestFactory: SystemApiRequestFactory;
     private responseProcessor: SystemApiResponseProcessor;
@@ -2494,7 +2494,7 @@ export class ObservableSystemApi {
 
 }
 
-import { TasksApiRequestFactory, TasksApiResponseProcessor} from "../apis/TasksApi";
+import { TasksApiRequestFactory, TasksApiResponseProcessor} from "../apis/TasksApi.js";
 export class ObservableTasksApi {
     private requestFactory: TasksApiRequestFactory;
     private responseProcessor: TasksApiResponseProcessor;
@@ -2578,7 +2578,7 @@ export class ObservableTasksApi {
 
 }
 
-import { UsersApiRequestFactory, UsersApiResponseProcessor} from "../apis/UsersApi";
+import { UsersApiRequestFactory, UsersApiResponseProcessor} from "../apis/UsersApi.js";
 export class ObservableUsersApi {
     private requestFactory: UsersApiRequestFactory;
     private responseProcessor: UsersApiResponseProcessor;

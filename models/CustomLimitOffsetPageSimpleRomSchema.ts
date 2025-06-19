@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { SimpleRomSchema } from '../models/SimpleRomSchema';
-import { HttpFile } from '../http/http';
+import { SimpleRomSchema } from '../models/SimpleRomSchema.js';
+import { HttpFile } from '../http/http.js';
 
 export class CustomLimitOffsetPageSimpleRomSchema {
     'items': Array<SimpleRomSchema>;

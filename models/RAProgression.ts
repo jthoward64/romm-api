@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { RAUserGameProgression } from '../models/RAUserGameProgression';
-import { HttpFile } from '../http/http';
+import { RAUserGameProgression } from '../models/RAUserGameProgression.js';
+import { HttpFile } from '../http/http.js';
 
 export class RAProgression {
     'total'?: number;

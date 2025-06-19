@@ -1,18 +1,18 @@
 // TODO: better import syntax?
-import {BaseAPIRequestFactory, RequiredError, COLLECTION_FORMATS} from './baseapi';
-import {Configuration} from '../configuration';
-import {RequestContext, HttpMethod, ResponseContext, HttpFile, HttpInfo} from '../http/http';
-import {ObjectSerializer} from '../models/ObjectSerializer';
-import {ApiException} from './exception';
-import {canConsumeForm, isCodeInRange} from '../util';
-import {SecurityAuthentication} from '../auth/auth';
+import {BaseAPIRequestFactory, RequiredError, COLLECTION_FORMATS} from './baseapi.js';
+import {Configuration} from '../configuration.js';
+import {RequestContext, HttpMethod, ResponseContext, HttpFile, HttpInfo} from '../http/http.js';
+import {ObjectSerializer} from '../models/ObjectSerializer.js';
+import {ApiException} from './exception.js';
+import {canConsumeForm, isCodeInRange} from '../util.js';
+import {SecurityAuthentication} from '../auth/auth.js';
 
 
-import { BodyCreateUserFromInviteApiUsersRegisterPost } from '../models/BodyCreateUserFromInviteApiUsersRegisterPost';
-import { HTTPValidationError } from '../models/HTTPValidationError';
-import { InviteLinkSchema } from '../models/InviteLinkSchema';
-import { MessageResponse } from '../models/MessageResponse';
-import { UserSchema } from '../models/UserSchema';
+import { BodyCreateUserFromInviteApiUsersRegisterPost } from '../models/BodyCreateUserFromInviteApiUsersRegisterPost.js';
+import { HTTPValidationError } from '../models/HTTPValidationError.js';
+import { InviteLinkSchema } from '../models/InviteLinkSchema.js';
+import { MessageResponse } from '../models/MessageResponse.js';
+import { UserSchema } from '../models/UserSchema.js';
 
 /**
  * no description

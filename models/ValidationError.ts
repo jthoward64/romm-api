@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { ValidationErrorLocInner } from '../models/ValidationErrorLocInner';
-import { HttpFile } from '../http/http';
+import { ValidationErrorLocInner } from '../models/ValidationErrorLocInner.js';
+import { HttpFile } from '../http/http.js';
 
 export class ValidationError {
     'loc': Array<ValidationErrorLocInner>;

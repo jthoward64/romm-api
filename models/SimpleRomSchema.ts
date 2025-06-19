@@ -10,14 +10,14 @@
  * Do not edit the class manually.
  */
 
-import { RomFileSchema } from '../models/RomFileSchema';
-import { RomIGDBMetadata } from '../models/RomIGDBMetadata';
-import { RomMetadataSchema } from '../models/RomMetadataSchema';
-import { RomMobyMetadata } from '../models/RomMobyMetadata';
-import { RomSSMetadata } from '../models/RomSSMetadata';
-import { RomUserSchema } from '../models/RomUserSchema';
-import { SiblingRomSchema } from '../models/SiblingRomSchema';
-import { HttpFile } from '../http/http';
+import { RomFileSchema } from '../models/RomFileSchema.js';
+import { RomIGDBMetadata } from '../models/RomIGDBMetadata.js';
+import { RomMetadataSchema } from '../models/RomMetadataSchema.js';
+import { RomMobyMetadata } from '../models/RomMobyMetadata.js';
+import { RomSSMetadata } from '../models/RomSSMetadata.js';
+import { RomUserSchema } from '../models/RomUserSchema.js';
+import { SiblingRomSchema } from '../models/SiblingRomSchema.js';
+import { HttpFile } from '../http/http.js';
 
 export class SimpleRomSchema {
     'id': number;

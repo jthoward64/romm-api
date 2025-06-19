@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { TaskDict } from '../models/TaskDict';
-import { HttpFile } from '../http/http';
+import { TaskDict } from '../models/TaskDict.js';
+import { HttpFile } from '../http/http.js';
 
 export class SchedulerDict {
     'RESCAN': TaskDict;

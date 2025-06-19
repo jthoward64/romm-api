@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { FirmwareSchema } from '../models/FirmwareSchema';
-import { HttpFile } from '../http/http';
+import { FirmwareSchema } from '../models/FirmwareSchema.js';
+import { HttpFile } from '../http/http.js';
 
 export class PlatformSchema {
     'id': number;

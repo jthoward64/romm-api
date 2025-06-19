@@ -10,9 +10,9 @@
  * Do not edit the class manually.
  */
 
-import { TinfoilFeedFileSchema } from '../models/TinfoilFeedFileSchema';
-import { TinfoilFeedTitleDBSchema } from '../models/TinfoilFeedTitleDBSchema';
-import { HttpFile } from '../http/http';
+import { TinfoilFeedFileSchema } from '../models/TinfoilFeedFileSchema.js';
+import { TinfoilFeedTitleDBSchema } from '../models/TinfoilFeedTitleDBSchema.js';
+import { HttpFile } from '../http/http.js';
 
 export class TinfoilFeedSchema {
     'files': Array<TinfoilFeedFileSchema>;

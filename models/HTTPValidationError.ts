@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { ValidationError } from '../models/ValidationError';
-import { HttpFile } from '../http/http';
+import { ValidationError } from '../models/ValidationError.js';
+import { HttpFile } from '../http/http.js';
 
 export class HTTPValidationError {
     'detail'?: Array<ValidationError>;

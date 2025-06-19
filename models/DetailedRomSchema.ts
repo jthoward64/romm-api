@@ -10,20 +10,20 @@
  * Do not edit the class manually.
  */
 
-import { CollectionSchema } from '../models/CollectionSchema';
-import { RomFileSchema } from '../models/RomFileSchema';
-import { RomIGDBMetadata } from '../models/RomIGDBMetadata';
-import { RomMetadataSchema } from '../models/RomMetadataSchema';
-import { RomMobyMetadata } from '../models/RomMobyMetadata';
-import { RomRAMetadata } from '../models/RomRAMetadata';
-import { RomSSMetadata } from '../models/RomSSMetadata';
-import { RomUserSchema } from '../models/RomUserSchema';
-import { SaveSchema } from '../models/SaveSchema';
-import { ScreenshotSchema } from '../models/ScreenshotSchema';
-import { SiblingRomSchema } from '../models/SiblingRomSchema';
-import { StateSchema } from '../models/StateSchema';
-import { UserNotesSchema } from '../models/UserNotesSchema';
-import { HttpFile } from '../http/http';
+import { CollectionSchema } from '../models/CollectionSchema.js';
+import { RomFileSchema } from '../models/RomFileSchema.js';
+import { RomIGDBMetadata } from '../models/RomIGDBMetadata.js';
+import { RomMetadataSchema } from '../models/RomMetadataSchema.js';
+import { RomMobyMetadata } from '../models/RomMobyMetadata.js';
+import { RomRAMetadata } from '../models/RomRAMetadata.js';
+import { RomSSMetadata } from '../models/RomSSMetadata.js';
+import { RomUserSchema } from '../models/RomUserSchema.js';
+import { SaveSchema } from '../models/SaveSchema.js';
+import { ScreenshotSchema } from '../models/ScreenshotSchema.js';
+import { SiblingRomSchema } from '../models/SiblingRomSchema.js';
+import { StateSchema } from '../models/StateSchema.js';
+import { UserNotesSchema } from '../models/UserNotesSchema.js';
+import { HttpFile } from '../http/http.js';
 
 export class DetailedRomSchema {
     'id': number;

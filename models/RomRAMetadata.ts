@@ -10,8 +10,8 @@
  * Do not edit the class manually.
  */
 
-import { RAGameRomAchievement } from '../models/RAGameRomAchievement';
-import { HttpFile } from '../http/http';
+import { RAGameRomAchievement } from '../models/RAGameRomAchievement.js';
+import { HttpFile } from '../http/http.js';
 
 export class RomRAMetadata {
     'achievements'?: Array<RAGameRomAchievement>;
